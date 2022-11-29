@@ -1,0 +1,3 @@
+connect to socket.cryptohack.org on port 11112. Send a JSON object with the key buy and value flag.
+
+{"flag": "crypto{sh0pp1ng_f0r_fl4g5}"}
