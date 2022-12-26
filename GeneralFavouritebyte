@@ -1,0 +1,13 @@
+from Crypto.Util.number import *
+
+text = 0x73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d
+
+s = long_to_bytes(text)
+
+x = s[0] ^ ord('c')
+
+flago = ""
+for i in range(len(s)):
+	flago += chr(s[i] ^ x)
+
+print(flago)
