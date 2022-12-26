@@ -1,0 +1,5 @@
+from Crypto.PublicKey import RSA
+
+rsa_key = RSA.importKey(open('cert.pem', "rb").read())
+
+print(rsa_key.n)
