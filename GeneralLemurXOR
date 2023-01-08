@@ -1,0 +1,7 @@
+
+
+I used 'StegSolve' by Caesum
+
+You can see how to download it here: https://github.com/zardus/ctf-tools/blob/master/stegsolve/install
+
+Chose 'image combiner' option and selected both .png files, then XORed them and got the flag
